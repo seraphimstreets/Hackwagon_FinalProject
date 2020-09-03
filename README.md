@@ -7,3 +7,11 @@ My final project for the Hackwagon DS102 Data Science course. It is a notebook o
 I utilized Selenium for Python to scrape web articles from financial news sites such as CNBC, Financial Times etc. and the Twitter API for collecting tweets relating to a stock's ticker symbol. After aggregating this data, I used the NLP library NLTK for preprocessing and VADER for sentiment analysis. Unfortunately, I found that I could not find a convincing correlation between these textual sources and the movement of stock prices. I proffered some possible reasons for this including: 1) VADER sentiment analyzer was trained on tweets and not financial texts, 2) Time lag between news and daily price changes, 3) Limited sample size 
 
 2) Prediction using technical indicators and machine learning algorithms 
+
+Explored predicting APPL stock prices using the simple moving average and exponential moving average indicators, as well as the ARIMA RNN, evaluating their performance against the target price with root mean squared error (RMSE).  
+
+3) Simulated investing using a reinforcement learning model
+
+Trained a reinforcement learning agent to trade 3 different stocks with Q-learning, with the aim of maximizing returns over many iterations on the train set. A group of agents were then tested against a holdout validation set, where most were successful in reaping profits, with the mean profitability being 50% over 5 years. 
+
+Conclusion: Machine learning (and deep sequential models especially) are highly applicable for use in financial trading, which is why they have been ubiquitously adopted by hedge funds and financial insitutions around the globe. However, for the everyman with limited budget and compute, it is still best to exercise caution when utilizing these algorithms. Although most agents were successful during evaluation, there were still a few that lost money or had earnings below the annual rate of inflation. 
