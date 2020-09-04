@@ -21,7 +21,7 @@ Explored predicting APPL stock prices using the simple moving average and expone
 
 **3) Simulated investing using a reinforcement learning model**
 
-![Reinforcement Learning](https://seraphimstreets.imgur.com/all)
+![Reinforcement Learning](https://i.imgur.com/gfmq31j.png)
 
 Trained a **reinforcement learning agent to trade 3 different stocks with Q-learning**, with the aim of maximizing returns over many iterations on the train set. A group of agents were then tested against a holdout validation set, where most were successful in reaping profits, with the mean profitability being 50% over 5 years. 
 
