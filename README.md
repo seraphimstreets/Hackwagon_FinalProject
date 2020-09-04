@@ -23,6 +23,6 @@ Explored predicting APPL stock prices using the simple moving average and expone
 
 ![Reinforcement Learning](https://i.imgur.com/gfmq31j.png)
 
-Trained a **reinforcement learning agent to trade 3 different stocks with Q-learning**, with the aim of maximizing returns over many iterations on the train set. A group of agents were then tested against a holdout validation set, where most were successful in reaping profits, with the mean profitability being 50% over 5 years. 
+Trained a **reinforcement learning agent to trade 3 different stocks with Q-learning**, with the aim of maximizing returns over many iterations on the train set. A group of agents were then tested against a holdout validation set, where most were successful in reaping profits, with the mean profitability being 25% over 3 years. 
 
 Conclusion: Machine learning (and deep sequential models especially) are highly applicable for use in financial trading, which is why they have been ubiquitously adopted by hedge funds and financial insitutions around the globe. However, for the everyman with limited budget and compute, it is still best to exercise caution when utilizing these algorithms. Although most agents were successful during evaluation, there were still a few that lost money or had earnings below the annual rate of inflation. 
